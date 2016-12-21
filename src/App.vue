@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-    <h1>{{ msg }}</h1>
+    <h1>{{ date }}</h1>
 
     <hr>
     
@@ -15,6 +15,7 @@
     <hr>
     
     <p>// Played with Webhooks...</p>
+    <img src="assets/test-webhook.png">
     
     </div>
 </template>
@@ -29,7 +30,7 @@
         },
         data () {
             return {
-                msg: 'Welcome to Your Vue.js App'
+                date: '2016/12/22'
             }
         }
     }
